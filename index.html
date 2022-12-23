@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NiceBike</title>
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>NiceBike</h1>
+        <nav>
+            <a href="./index.html">Home</a> |
+            <a href="./catalog.html">Catalog</a> |
+            <a href="./contact.html">Contact</a> |
+            <a href="./production_manager.html">Prod</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Featured Bikes</h2>
+        <ul>
+            <li>
+                <img src="city-bike.jpg" alt="City Bike">
+                <h3>City Bike</h3>
+                <p>Our city bike is perfect for commuting and short trips around town. It comes equipped with mudguards and lights for your convenience.</p>
+            </li>
+            <li>
+                <img src="explorer-bike.jpg" alt="Explorer Bike">
+                <h3>Explorer Bike</h3>
+                <p>Our explorer bike is perfect for off-road adventures. It has wider, grooved tires and mudguards that are adapted for rough terrain.</p>
+            </li>
+            <li>
+                <img src="adventure-bike.jpg" alt="Adventure" />
+            </li>
+        </ul>
+        <h2>Order Form</h2>
+        <form action="#" method="post">
+            <label for="model">Model:</label>
+            <select id="model" name="model">
+                <option value="city">City Bike</option>
+                <option value="explorer">Explorer Bike</option>
+                <option value="adventure">Adventure Bike</option>
+            </select>
+            <br>
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="26">26"</option>
+                <option value="28">28"</option>
+            </select>
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>Copyright 2022 NiceBike</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* Define the font and color for the body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Define the styles for the header */
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Define the styles for the navigation links */
+header nav a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Define the styles for the main content area */
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+    /* Define the styles for the bike images */
+    main li img {
+        width: 250px;
+    }
+
+    /* Define the styles for the order form */
+    main form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    main form input[type="submit"] {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 10px;
+        border: none;
+    }
+
+    /* Define the styles for the footer */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
